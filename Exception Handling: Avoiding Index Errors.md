@@ -11,8 +11,20 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
+```python3
+try:
+    n=int(input())
+    l=[]
+    for i in range(n):
+        l.append(int(input()))
+    print(l)
+    print(l[6])
+except IndexError:
+    print("6 is not accepted")
+```
 
 ## Output
+<img width="1543" height="854" alt="image" src="https://github.com/user-attachments/assets/87e77317-f328-4ba8-92d3-cc06eec4809d" />
 
 ## Result
+Thus the python program that handles an **IndexError** when trying to access an element beyond the available range of a list is completed successfully.
